@@ -1,0 +1,49 @@
+.btn, div, form, input{
+    margin: 5px;
+}
+
+img{
+    width: 200px;
+    height:  200px;
+}
+
+label{ 
+    color: white;
+    margin-left: 700px;
+}
+
+
+input{
+    margin-left: 700px;
+
+}
+
+
+.new-buttons{
+    background-color: green;
+    font-size: medium;
+    color: white;
+    flex-direction: row;
+}
+.btn{
+    background-color: green;
+    font-size: medium;
+    color: white;
+}
+
+#display-images{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+body{
+    background-image: url("images/funny-cat-with-guns.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 750px;
+}
+
+#submitPress{
+margin-left: 700px;
+}

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     console.log("ready");
-    var addButtons = ["dogs", "cats", "lions", "monkeys", "BMW", "Volkswagen","Birds","Bears","Sealion","Raccoon","Disturbed","Dream Theater", "Three Days Grace"];
+    var addButtons = ["Dogs", "Cats", "Lions", "Monkeys", "BMW", "Volkswagen","Birds","Bears","Sealions","Raccoons","Marilyn Manson","Dream Theater", "Three Days Grace"];
 
     function displayImg() {
 
@@ -12,7 +12,7 @@ $(document).ready(function () {
             $("#display-buttons").append(newButtons);
         }
         $(".new-buttons").on("click", function () {
- 
+             $("#display-images").empty();
             var input = $(this).attr("data-buttontype");
             var limit = 10;
             var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=o9B0e5E5gyVEF165dqAYnQ0w5AVNzTWy";
